@@ -58,7 +58,7 @@
 
     return `
             <div class="entry-avatar" style="background:${color}">
-                <img src="avatars/${clean}.jpg"
+                <img src="avatars/${clean}.png"
                      alt="" loading="lazy"
                      onerror="this.remove()">
                 ${letter}
