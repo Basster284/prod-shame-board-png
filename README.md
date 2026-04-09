@@ -1,8 +1,8 @@
-# 🏆 Доска позора чата
+# 🏆 Доска позора чата (совместимая с Internet Explorer)
 
-> Лучшие высказывания чата, увековеченные навсегда
+> Лучшие высказывания чата, увековеченные навсегда (даже на nokia pureview 808)
 
-**Сайт:** [https://watlon.github.io/prod-shame-board](https://watlon.github.io/prod-shame-board)
+**Сайт:** [https://basster284.github.io/prod-shame-board-png](https://basster284.github.io/prod-shame-board-png)
 
 ## Как добавить запись
 
