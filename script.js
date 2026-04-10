@@ -21,6 +21,7 @@ entries.sort(function(a, b){
 var board = document.getElementById("board");
 var counter = document.getElementById("counter");
 var search = document.getElementById("search");
+var lastSearch = " ";
 
 function isArr(obj) {
   return obj && typeof obj === 'object' && typeof obj.length === 'number';
@@ -161,8 +162,12 @@ function renderBoard(data) {
 
 function apply() {
   var q = search.value.toLowerCase().replace(/^\s+|\s+$/g, '');
+
+  if (q == lastSearch) return;
+  lastSearch = q;
+
   var filtered = [];
-  
+
   if (!q) {
     filtered = entries;
   } else {
