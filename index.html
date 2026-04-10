@@ -23,10 +23,19 @@
 
     h1{
       text-align: center;
+      letter-spacing: -1;
+      font-family: 'Inter', -apple-system, sans-serif;
+      color: #ff6b35;
+    }
+
+    strong{
+      color: #ff2e63;
     }
 
     .tagline{
       text-align: center;
+      margin-top: 8px;
+      color: #999;
     }
 
     a{
@@ -42,10 +51,23 @@
 
     .btn {
       margin-right: 5px;
+      padding: 12px 14px;
+      background-color: #0f0f1c;
+      border-radius: 16px;
+      font-weight: bold;
+    }
+
+    .btn-accent{
+      background-color: #ff2e63;
+    }
+
+    .btn-ghost{
+      background-color: #0f0f1c;
     }
 
     .header-actions{
       text-align: center;
+      margin-top: 28px;
     }
 
     .counter{
@@ -75,6 +97,7 @@
       display: block;
       margin-top: 15px;
       text-align: center;
+      font-size: 3.5em;
     }
 
     .entry{
@@ -98,13 +121,15 @@
 
     .entry-quote{
       padding: 15px;
-      border-radius: 12px;
+      border-radius: 0 12px 12px 0;
+      border-left: 3px solid #ff2e63;
       background-color: #181833;
+      margin-bottom: 14px;
     }
 
     .entry-evidence{
-      display: inline;
-      margin-right: 0;
+      float: right;
+      color: #555;
     }
 
     .quote-msg{
@@ -112,9 +137,13 @@
     }
 
     .quote-msg-author{
-      display: block;
       margin-bottom: 2px;
-      font-weight: bold; 
+      font-weight: bold;
+      display: block;
+    }
+
+    .entry-username{
+      font-weight: bold;
     }
 
     .empty{
@@ -126,9 +155,19 @@
       text-align: center;
     }
 
+    p{
+      color: #999;
+    }
+
     .footer-sub{
       font-size: 10pt;
       margin-top: 1px;
+      color: #555;
+    }
+
+    .entry-date{
+      font-family: 'JetBrains Mono', 'Consolas', 'Monaco', 'Lucida Console', monospace;
+      color: #555;
     }
   </style>
   <body>
@@ -153,14 +192,6 @@
           class="btn btn-ghost"
         >
           GitHub
-        </a>
-
-        <a
-          href="https://github.com/WatLon/prod-shame-board"
-          target="_blank"
-          class="btn btn-ghost"
-        >
-          GitHub (оригинал)
         </a>
       </div>
     </header>
