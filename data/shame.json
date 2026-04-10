@@ -280,5 +280,85 @@
     "date": "2026-04-08",
     "evidence": "https://t.me/c/2080029993/205941",
     "added_by": "misshanya"
+  },
+  {
+    "id": 13,
+    "telegram": "@dev_cry1337",
+    "description": "Закрыл ssh от себя, сломал VNC и жалуется на саппорт хостера",
+    "quote": [
+      {
+        "from": "Мишаня",
+        "text": "ты фаерволлом себя захерачил?"
+      },
+      {
+        "from": "привет",
+        "text": "22 порт закрыт + VNC не ворк"
+      },
+      {
+        "from": "привет",
+        "text": "да"
+      },
+      {
+        "from": "Мишаня",
+        "text": "увы"
+      },
+      {
+        "from": "привет",
+        "text": "ну щас переустановлю"
+      },
+      {
+        "from": "привет",
+        "text": "они нихуя не могут"
+      },
+      {
+        "from": "привет",
+        "text": "дуры"
+      },
+      {
+        "from": "Амир",
+        "text": "Сказал человек заблокировавший себе доступ к серверу"
+      }
+    ],
+    "date": "2026-04-10",
+    "evidence": "https://t.me/c/2080029993/210943",
+    "added_by": "misshanya"
+  },
+  {
+    "id": 14,
+    "telegram": "@dev_cry1337",
+    "description": "Слил скриншот с паролем от тачки, но вовремя одумался",
+    "quote": [
+      {
+        "from": "привет",
+        "text": "ПРЕЛЕСТЬ СУКА",
+        "image": "https://github.com/user-attachments/assets/62b6cf1e-c614-4ad5-b7c2-a198afd7c2af"
+      },
+      {
+        "from": "привет",
+        "text": "Блять."
+      }
+    ],
+    "date": "2026-04-10",
+    "evidence": "https://t.me/c/2080029993/210971",
+    "added_by": "misshanya"
+  },
+  {
+    "id": 15,
+    "telegram": "@basster284",
+    "description": "Предложил решить проблему неправильно настроенного gh pages пушом в репу",
+    "quote": [
+      {
+        "from": "Амир",
+        "text": "ну вот что тут теперь",
+        "image": "https://github.com/user-attachments/assets/2d002e07-70b2-4222-aac7-d3024208fbf1"
+      },
+      {
+        "from": "Basster284",
+        "text": "просто пуш сделай"
+      }
+    ],
+    "date": "2026-04-10",
+    "evidence": "https://t.me/c/2080029993/211033",
+    "added_by": "misshanya"
   }
 ]
