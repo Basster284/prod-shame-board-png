@@ -51,7 +51,7 @@ function hash(str) {
   for (var i = 0; i < str.length; i++) {
     h = str.charCodeAt(i) + ((h << 5) - h);
   }
-  return h;
+  return Math.abs(h);
 }
 
 function esc(s) {
@@ -107,7 +107,7 @@ function renderQuote(quote) {
 
   return quote
     .map(function(msg) {
-      var color = palette[Math.abs(hash(msg.from)  % palette.length)];
+      var color = palette[hash(msg.from)  % palette.length];
       var authorHTML = '<span class="quote-msg-author" style="color: ' + color + '">' + esc(msg.from) + '</span>';
       var imagesHTML = renderMsgImages(msg.image);
       var textHTML = msg.text
