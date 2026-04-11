@@ -6,13 +6,13 @@
 
 ## Как добавить запись
 
-[Открой Issue](../../issues/new?template=shame.yml) → вставь цитату из Telegram → готово.
+[Открой Issue](https://github.com/WatLon/prod-shame-board/issues/new?template=shame.yml) → вставь цитату из Telegram → готово.
 
-Подробный гайд со всеми форматами — в [CONTRIBUTING.md](CONTRIBUTING.md).
+Подробный гайд со всеми форматами — в [CONTRIBUTING.md](https://github.com/WatLon/prod-shame-board/blob/main/CONTRIBUTING.md).
 
 ## Хочешь улучшить доску?
 
-[Предложи фичу](../../issues/new?template=feature.yml) или форкни репо и открой PR.
+[Предложи фичу](https://github.com/WatLon/prod-shame-board/issues/new?template=shame.yml) или форкни репо и открой PR.
 
 ## Стек
 
