@@ -23,8 +23,35 @@ var counter = document.getElementById("counter");
 var search = document.getElementById("search");
 var lastSearch = " ";
 
+const palette = [
+  "#e74c3c",
+  "#8e44ad",
+  "#2980b9",
+  "#16a085",
+  "#f39c12",
+  "#d35400",
+  "#c0392b",
+  "#27ae60",
+  "#e91e63",
+  "#9c27b0",
+  "#3f51b5",
+  "#009688",
+  "#ff5722",
+  "#795548",
+  "#0ea5e9",
+  "#eab308",
+];
+
 function isArr(obj) {
   return obj && typeof obj === 'object' && typeof obj.length === 'number';
+}
+
+function hash(str) {
+  var h = 0;
+  for (var i = 0; i < str.length; i++) {
+    h = str.charCodeAt(i) + ((h << 5) - h);
+  }
+  return h;
 }
 
 function esc(s) {
@@ -80,7 +107,8 @@ function renderQuote(quote) {
 
   return quote
     .map(function(msg) {
-      var authorHTML = '<span class="quote-msg-author">' + esc(msg.from) + '</span>';
+      var color = palette[Math.abs(hash(msg.from)  % palette.length)];
+      var authorHTML = '<span class="quote-msg-author" style="color: ' + color + '">' + esc(msg.from) + '</span>';
       var imagesHTML = renderMsgImages(msg.image);
       var textHTML = msg.text
         ? '<span class="quote-msg-text">' + escNl(msg.text) + '</span>'
