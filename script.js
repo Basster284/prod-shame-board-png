@@ -23,7 +23,7 @@ var counter = document.getElementById("counter");
 var search = document.getElementById("search");
 var lastSearch = " ";
 
-const palette = [
+var palette = [
   "#e74c3c",
   "#8e44ad",
   "#2980b9",
