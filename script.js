@@ -73,14 +73,14 @@ function avatarHTML(telegram) {
 
 function usernameHTML(telegram) {
   var clean = telegram.replace("@", "");
-  return '<div class="entry-username"><a href="https://t.me/' + esc(clean) + '" target=\'_blank\'>' + esc(clean) + '</a></div>';
+  return '<div class="entry-username"><a href="https://t.me/' + esc(clean) + ' target="_blank">' + esc(clean) + '</a></div>';
 }
 
 function renderMsgImages(image) {
   if (!image) return "";
   var urls = isArr(image) ? image : [image];
   return '<div class="quote-msg-images">' + urls.map(function(url) {
-    return '<img src="' + esc(url) + '" alt="" loading="lazy"onclick="window.open(this.src,\'_blank\')">';
+    return '<img src="' + esc(url) + '" alt="" loading="lazy"onclick="window.open(this.src,"_blank")">';
   }).join("") + '</div>';
 }
 
